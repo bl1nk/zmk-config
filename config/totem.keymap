@@ -23,10 +23,10 @@
 
         sym-num {
             bindings = <
-        &kp LS(EXCL)   &kp LS(AT)        &kp LS(POUND)      &kp LS(DLLR)    &kp LS(PRCNT)                &kp EQUAL      &kp N7  &kp N8  &kp N9  &kp MINUS
-        &kp LS(CARET)  &kp LS(AMPS)      &kp LS(STAR)       &kp LS(LPAR)    &kp LS(RIGHT_PARENTHESIS)    &kp BACKSLASH  &kp N4  &kp N5  &kp N6  &kp PLUS
-&trans  &kp GRAVE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RBRC                     &kp N0         &kp N1  &kp N2  &kp N3  &kp SLASH  &trans
-                                         &trans             &trans          &trans                       &trans         &mo 3   &kp N0
+        &kp EXCL   &kp AT            &kp HASH           &kp DLLR              &kp PERCENT              &kp EQUAL      &kp N7  &kp N8  &kp N9  &kp MINUS
+        &kp CARET  &kp AMPERSAND     &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp BACKSLASH  &kp N4  &kp N5  &kp N6  &kp PLUS
+&trans  &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RBRC                 &kp N0         &kp N1  &kp N2  &kp N3  &kp SLASH  &trans
+                                     &trans             &trans                &trans                   &trans         &mo 3   &kp N0
             >;
 
             label = "Symbols & Numbers";
