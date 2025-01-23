@@ -15,6 +15,16 @@
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
         };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <29 30>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <9 8>;
+        };
     };
 
     keymap {
