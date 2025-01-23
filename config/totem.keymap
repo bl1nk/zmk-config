@@ -13,17 +13,17 @@
 
         backtick {
             bindings = <&kp GRAVE>;
-            key-positions = <0 1>;
+            key-positions = <0 2>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <29 30>;
+            key-positions = <30 28>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <9 8>;
+            key-positions = <9 7>;
         };
     };
 
