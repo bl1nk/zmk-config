@@ -25,11 +25,6 @@
             bindings = <&kp MINUS>;
             key-positions = <9 7>;
         };
-
-        soft-off {
-            bindings = <&soft_off>;
-            key-positions = <25 20>;
-        };
     };
 
     keymap {
