@@ -5,7 +5,11 @@
 
 #define BASE 0
 
-&mt { flavor = "tap-unless-interrupted"; };
+&mt {
+    flavor = "tap-preferred";
+    quick-tap-ms = <200>;
+    tapping-term-ms = <150>;
+};
 
 / {
     combos {
