@@ -5,7 +5,7 @@
 
 #define BASE 0
 
-&mt { flavor = "tap-preferred"; };
+&mt { flavor = "tap-unless-interrupted"; };
 
 / {
     combos {
