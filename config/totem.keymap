@@ -19,16 +19,19 @@
         backtick {
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;
+            require-prior-idle-ms = <75>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <29 28>;
+            require-prior-idle-ms = <75>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <8 7>;
+            require-prior-idle-ms = <75>;
         };
     };
 
