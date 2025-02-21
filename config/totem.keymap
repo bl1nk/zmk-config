@@ -18,17 +18,17 @@
 
         backtick {
             bindings = <&kp GRAVE>;
-            key-positions = <0 2>;
+            key-positions = <1 2>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <30 28>;
+            key-positions = <29 28>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <9 7>;
+            key-positions = <8 7>;
         };
     };
 
@@ -38,10 +38,10 @@
         def {
             display-name = "Default";
             bindings = <
-          &kp Q       &kp W       &kp E        &kp R        &kp T      &kp Y    &kp U            &kp I        &kp O       &kp P
-          &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G      &kp H    &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI SEMI
-&kp BSPC  &kp Z       &kp X       &kp C        &kp V        &kp B      &kp N    &kp M            &kp COMMA    &kp DOT     &kp FSLH       &kp SQT
-                                  &kp ESCAPE   &lt 1 SPACE  &kp TAB    &kp RET  &lt 2 BACKSPACE  &kp DEL
+          &kp Q       &kp W       &kp E        &kp R        &kp T                 &kp Y                   &kp U            &kp I        &kp O       &kp P
+          &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G                 &kp H                   &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI SEMI
+&kp BSPC  &kp Z       &kp X       &kp C        &kp V        &kp B                 &kp N                   &kp M            &kp COMMA    &kp DOT     &kp FSLH       &kp SQT
+                                  &kp ESCAPE   &lt 1 SPACE  &mt LEFT_SHIFT TAB    &mt RIGHT_SHIFT RETURN  &lt 2 BACKSPACE  &kp DEL
             >;
         };
 
