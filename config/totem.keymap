@@ -64,6 +64,7 @@
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;
             require-prior-idle-ms = <75>;
+            layers = <0 1 2 3>;
         };
 
         backslash {
@@ -76,11 +77,13 @@
             bindings = <&kp MINUS>;
             key-positions = <8 7>;
             require-prior-idle-ms = <75>;
+            layers = <0 2>;
         };
 
         game-toggle {
             bindings = <&tog 4>;
             key-positions = <4 21>;
+            layers = <0 4>;
         };
     };
 
